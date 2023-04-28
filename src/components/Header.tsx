@@ -28,7 +28,7 @@ interface Props {
 const Header = ({ onIconClick }: Props) => {
   const handleClick = () => {
     // Redirects to page 1
-    window.location.href = 'http://localhost:3000';
+    window.location.href = 'https://assignment-beta-drab.vercel.app/';
   }
   return (
     <HeaderStyle>
